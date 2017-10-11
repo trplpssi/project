@@ -24,9 +24,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //web-fonts -->
 </head>
 <body>
-<div class="header">
-		<nav class="navbar navbar-default">
-					<div class="navbar-header">
+<div class="header navbar-fixed-top scroll scroll">
+		<nav class="navbar navbar-default scroll scroll">
+					<div class="navbar-header scroll scroll">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar"></span>
@@ -36,22 +36,22 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<h1><a href="index.html">ProyekKita.com</a></h1>
 					</div>
 					<div class="top-nav-text">
-						<div class="nav-contact-w3ls"><i class="fa fa-phone" aria-hidden="true"></i><p>+6285704170077 Anggy</p></div>
+						<div class="nav-contact-w3ls"><i class="fa fa-phone" aria-hidden="true"></i><p>(021) 548 5555</p></div>
 					</div>
 					<!-- navbar-header -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a class="hvr-underline-from-center active" href="index.html">Home</a></li>
-							<li><a href="services.html" class="hvr-underline-from-center">Services</a></li>
-							<li><a href="#team" class="hvr-underline-from-center scroll scroll">Team</a></li>
-							<li><a href="gallery.html" class="hvr-underline-from-center">Gallery</a></li>
-							<li><a href="#" data-toggle="dropdown"><span data-hover="ShortCodes">Short Codes</span><span class="caret"></span></a>
+							<li><a href="#" class="hvr-underline-from-center active scroll scroll">Beranda</a></li>
+							<li><a href="#tentang" class="hvr-underline-from-center scroll scroll">Tentang</a></li>
+							<li><a href="#team" class="hvr-underline-from-center scroll scroll">Tim</a></li>
+							<li><a href="gallery.html" class="hvr-underline-from-center">Galeri</a></li>
+							<li><a href="contact.html" class="hvr-underline-from-center">Kontak</a>
+								<li><a href="#" data-toggle="dropdown"><span data-hover="ShortCodes">Masuk</span><span class="caret"></span></a>
 								<ul class="dropdown-menu">
-									<li><a href="icons.html"><span data-hover="Icons">Icons</span></a></li>
-									<li><a href="typography.html"><span data-hover="Typograpghy">Typograpghy</span></a></li>
+									<li><a href="icons.html"><span data-hover="Icons">Masuk</span></a></li>
+									<li><a href="typography.html"><span data-hover="Typograpghy">Daftar</span></a></li>
 								</ul>
 							</li>
-							<li><a href="contact.html" class="hvr-underline-from-center">Contact</a>
 						</ul>
 					</div>
 
@@ -69,23 +69,23 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="container">
 						<div class="slider-info">
 							<div class="col-md-8">
-								<h2>Auto transport to fill</h2>
-								<h4>the truck space</h4>
+								<h2>Selamat Datang di</h2>
+								<h4>ProyekKita.com</h4>
 								<div class="w3ls-button">
-									<a href="#" data-toggle="modal" data-target="#myModal">More About Our Project</a>
+									<a href="#" data-toggle="modal" data-target="#myModal">Info Tentang Proyek Kita</a>
 								</div>
 								<div class="bannergrids">
 									<div class="col-md-4 grid1">
 										<i class="fa fa-truck" aria-hidden="true"></i>
-										<p>lorem ipsum dolor sit amet consectetur adipiscing</p>
+										<p>Mengirim bahan bangunan dengan aman dan cepat</p>
 									</div>
 									<div class="col-md-4 grid1">
-										<i class="fa fa-ship" aria-hidden="true"></i>
-										<p>lorem ipsum dolor sit amet consectetur adipiscing</p>
+										<i class="fa fa-home" aria-hidden="true"></i>
+										<p>Mewujudkan rumah impian anda menjadi kenyataan</p>
 									</div>
 									<div class="col-md-4 grid1">
-										<i class="fa fa-bus" aria-hidden="true"></i>
-										<p>lorem ipsum dolor sit amet consectetur adipiscing</p>
+										<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+										<p>Pilihan desain rumah yang futuristik dan menarik</p>
 									</div>
 									<div class="clearfix"></div>
 								</div>
@@ -102,23 +102,23 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="container">
 						<div class="slider-info">
 							<div class="col-md-8">
-								<h3>independent Carriers</h3>
-								<h4>auto shipping</h4>
+								<h3>Wadah Para Kontraktor</h3>
+								<h4>Profesional dan Handal</h4>
 								<div class="w3ls-button">
-									<a href="#" data-toggle="modal" data-target="#myModal">More About Our Project</a>
+									<a href="#" data-toggle="modal" data-target="#myModal">Info Tentang Proyek Kita</a>
 								</div>
 								<div class="bannergrids">
 									<div class="col-md-4 grid1">
 										<i class="fa fa-truck" aria-hidden="true"></i>
-										<p>lorem ipsum dolor sit amet consectetur adipiscing</p>
+										<p>Mengirim bahan bangunan dengan aman dan cepat</p>
 									</div>
 									<div class="col-md-4 grid1">
-										<i class="fa fa-ship" aria-hidden="true"></i>
-										<p>lorem ipsum dolor sit amet consectetur adipiscing</p>
+										<i class="fa fa-home" aria-hidden="true"></i>
+										<p>Mewujudkan rumah impian anda menjadi kenyataan</p>
 									</div>
 									<div class="col-md-4 grid1">
-										<i class="fa fa-bus" aria-hidden="true"></i>
-										<p>lorem ipsum dolor sit amet consectetur adipiscing</p>
+										<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+										<p>Pilihan desain rumah yang futuristik dan menarik</p>
 									</div>
 									<div class="clearfix"></div>
 								</div>
@@ -135,23 +135,23 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="container">
 						<div class="slider-info">
 							<div class="col-md-8">
-								<h3>Streamer loads in</h3>
-								<h4>large Carriers</h4>
+								<h3>Desain Rumah Anda</h3>
+								<h4>Sesuai Impian</h4>
 								<div class="w3ls-button">
-									<a href="#" data-toggle="modal" data-target="#myModal">More About Our Project</a>
+									<a href="#" data-toggle="modal" data-target="#myModal">Info Tentang Proyek Kita</a>
 								</div>
 								<div class="bannergrids">
 									<div class="col-md-4 grid1">
 										<i class="fa fa-truck" aria-hidden="true"></i>
-										<p>lorem ipsum dolor sit amet consectetur adipiscing</p>
+										<p>Mengirim bahan bangunan dengan aman dan cepat</p>
 									</div>
 									<div class="col-md-4 grid1">
-										<i class="fa fa-ship" aria-hidden="true"></i>
-										<p>lorem ipsum dolor sit amet consectetur adipiscing</p>
+										<i class="fa fa-home" aria-hidden="true"></i>
+										<p>Mewujudkan rumah impian anda menjadi kenyataan</p>
 									</div>
 									<div class="col-md-4 grid1">
-										<i class="fa fa-bus" aria-hidden="true"></i>
-										<p>lorem ipsum dolor sit amet consectetur adipiscing</p>
+										<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+										<p>Pilihan desain rumah yang futuristik dan menarik</p>
 									</div>
 									<div class="clearfix"></div>
 								</div>
@@ -168,23 +168,23 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="container">
 						<div class="slider-info">
 							<div class="col-md-8">
-								<h3>vehicles Transport</h3>
-								<h4>Huge in collection</h4>
+								<h3>Membuat Proyek Dengan</h3>
+								<h4>Cepat, Tepat, dan Akurat</h4>
 								<div class="w3ls-button">
-									<a href="#" data-toggle="modal" data-target="#myModal">More About Our Project</a>
+									<a href="#" data-toggle="modal" data-target="#myModal">Info Tentang Proyek Kita</a>
 								</div>
 								<div class="bannergrids">
 									<div class="col-md-4 grid1">
 										<i class="fa fa-truck" aria-hidden="true"></i>
-										<p>lorem ipsum dolor sit amet consectetur adipiscing</p>
+										<p>Mengirim bahan bangunan dengan aman dan cepat</p>
 									</div>
 									<div class="col-md-4 grid1">
-										<i class="fa fa-ship" aria-hidden="true"></i>
-										<p>lorem ipsum dolor sit amet consectetur adipiscing</p>
+										<i class="fa fa-home" aria-hidden="true"></i>
+										<p>Mewujudkan rumah impian anda menjadi kenyataan</p>
 									</div>
 									<div class="col-md-4 grid1">
-										<i class="fa fa-bus" aria-hidden="true"></i>
-										<p>lorem ipsum dolor sit amet consectetur adipiscing</p>
+										<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+										<p>Pilihan desain rumah yang futuristik dan menarik</p>
 									</div>
 									<div class="clearfix"></div>
 								</div>
@@ -202,23 +202,23 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="container">
 						<div class="slider-info">
 							<div class="col-md-8">
-								<h3>Goods Carrying Train</h3>
-								<h4>Truck shipping</h4>
+								<h3>Supplier Bahan Bangunan</h3>
+								<h4>Yang Lengkap</h4>
 								<div class="w3ls-button">
-									<a href="#" data-toggle="modal" data-target="#myModal">More About Our Project</a>
+									<a href="#" data-toggle="modal" data-target="#myModal">Info Tentang Proyek Kita</a>
 								</div>
 								<div class="bannergrids">
 									<div class="col-md-4 grid1">
 										<i class="fa fa-truck" aria-hidden="true"></i>
-										<p>lorem ipsum dolor sit amet consectetur adipiscing</p>
+										<p>Mengirim bahan bangunan dengan aman dan cepat</p>
 									</div>
 									<div class="col-md-4 grid1">
-										<i class="fa fa-ship" aria-hidden="true"></i>
-										<p>lorem ipsum dolor sit amet consectetur adipiscing</p>
+										<i class="fa fa-home" aria-hidden="true"></i>
+										<p>Mewujudkan rumah impian anda menjadi kenyataan</p>
 									</div>
 									<div class="col-md-4 grid1">
-										<i class="fa fa-bus" aria-hidden="true"></i>
-										<p>lorem ipsum dolor sit amet consectetur adipiscing</p>
+										<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+										<p>Pilihan desain rumah yang futuristik dan menarik</p>
 									</div>
 									<div class="clearfix"></div>
 								</div>
@@ -264,11 +264,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							</div> -->
 <!-- //Slider -->
 <!-- bootstrap-modal-pop-up -->
-	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+	<!-- <div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-Transporters
+					Transporters
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				</div>
 					<div class="modal-body">
@@ -287,22 +287,20 @@ Transporters
 	</div>
 <!-- //bootstrap-modal-pop-up -->
 <!-- banner-bottom -->
-<div class="banner-bottom">
+<div class="banner-bottom" id="tentang">
 	<div class="col-md-7 bannerbottomleft">
 			<div class="video-grid-single-page-agileits">
 				<div data-video="d3q5mRA5djY" id="video"> <img src="images/bg2.jpg" alt="" class="img-responsive" /> </div>
 			</div>
 	</div>
 	<div class="col-md-5 bannerbottomright">
-		<h3>How Does We Work?</h3>
-		<p>Ut enim ad minima veniam, quis nostrum
-			exercitationem ulla corporis suscipit laboriosam,
-			nisi ut aliquid ex ea.</p>
-		<h4><i class="fa fa-taxi" aria-hidden="true"></i>International Transport Deliver System</h4>
-		<h4><i class="fa fa-shield" aria-hidden="true"></i>Fast & Best Deliver Service</h4>
-		<h4><i class="fa fa-ticket" aria-hidden="true"></i>Standard Courier value</h4>
-		<h4><i class="fa fa-space-shuttle" aria-hidden="true"></i>Easy And Auto Shipping Service</h4>
-		<h4><i class="fa fa-truck" aria-hidden="true"></i>Packaging & Storage</h4>
+		<h3>Tentang Sistem Kami</h3>
+		<p>Mewadahi klien, kontraktor, dan supplier. Mempermudah klien dalam menyelesaikan proyek, serta membantu kontraktor menemukan klien dan bahan dari supplier.</p>
+		<h4><i class="fa fa-check-square-o" aria-hidden="true"></i>Kontraktor dapat mengajukan rancangan rumah</h4>
+		<h4><i class="fa fa-check-square-o" aria-hidden="true"></i>Klien dapat mengajukan proyek sesuai keinginan</h4>
+		<h4><i class="fa fa-check-square-o" aria-hidden="true"></i>Kontraktor dapat mencari bahan dari supplier</h4>
+		<h4><i class="fa fa-check-square-o" aria-hidden="true"></i>Klien mengajukan kerjasama dengan kontraktor</h4>
+		<h4><i class="fa fa-check-square-o" aria-hidden="true"></i>Supplier menerima pesanan bahan bangunan</h4>
 	</div>
 	<div class="clearfix"></div>
 </div>
@@ -312,18 +310,18 @@ Transporters
 	<div class="team" id="team">
 		<div class="container">
 		<div class="heading">
-			<h3>Our Dealers</h3>
+			<h3>Tim Kami</h3>
 		</div>
 			<div class="wthree_team_grids">
 				<div class="col-md-3 wthree_team_grid">
 					<div class="hovereffect">
 						<img src="images/team1.jpg" alt=" " class="img-responsive" />
 						<div class="overlay">
-							<h6>Project Manager</h6>
+							<h6> Chief Executive Officer</h6>
 							<div class="rotate">
 								<p class="group1">
 									<a href="#">
-<i class="fa fa-twitter"></i>
+										<i class="fa fa-twitter"></i>
 									</a>
 									<a href="#">
 										<i class="fa fa-facebook"></i>
@@ -343,13 +341,13 @@ Transporters
 						</div>
 					</div>
 					<h4>Anggy Yolanda </h4>
-					<p>Project Manager</p>
+					<p> Chief Executive Officer</p>
 				</div>
 				<div class="col-md-3 wthree_team_grid">
 					<div class="hovereffect">
-						<img src="images/team2.jpg" alt=" " class="img-responsive" />
+						<img src="images/team7.jpg" alt=" " class="img-responsive" />
 						<div class="overlay">
-							<h6>Transporters</h6>
+							<h6>Chief Financial Officer</h6>
 							<div class="rotate">
 								<p class="group1">
 									<a href="#">
@@ -372,14 +370,14 @@ Transporters
 							</div>
 						</div>
 					</div>
-					<h4>Michael Lii</h4>
-					<p>Transport Dealer</p>
+					<h4>M. Thariq Nugroho</h4>
+					<p>Chief Financial Officer</p>
 				</div>
 				<div class="col-md-3 wthree_team_grid">
 					<div class="hovereffect">
-						<img src="images/team3.jpg" alt=" " class="img-responsive" />
+						<img src="images/team5.jpg" alt=" " class="img-responsive" />
 						<div class="overlay">
-							<h6>Transporters</h6>
+							<h6>Chief Marketing Officer</h6>
 							<div class="rotate">
 								<p class="group1">
 									<a href="#">
@@ -402,14 +400,14 @@ Transporters
 							</div>
 						</div>
 					</div>
-					<h4>Mark</h4>
-					<p>Transport Dealer</p>
+					<h4>Fadel Jordhy B.</h4>
+					<p>Chief Marketing Officer</p>
 				</div>
 				<div class="col-md-3 wthree_team_grid">
 					<div class="hovereffect">
-						<img src="images/team4.jpg" alt=" " class="img-responsive" />
+						<img src="images/team6.jpg" alt=" " class="img-responsive" />
 						<div class="overlay">
-							<h6>Transporters</h6>
+							<h6> Chief Operations Officer</h6>
 							<div class="rotate">
 								<p class="group1">
 									<a href="#">
@@ -432,55 +430,91 @@ Transporters
 							</div>
 						</div>
 					</div>
-					<h4>John smith</h4>
-					<p>Transport Dealer</p>
+					<h4>Bima Ajie B.</h4>
+					<p> Chief Operations Officer</p>
 				</div>
+				<div class="wthree_team_grids">
+					<div class="col-md-3 wthree_team_grid">
+						<div class="hovereffect">
+							<img src="images/team8.jpg" alt=" " class="img-responsive" />
+							<div class="overlay">
+								<h6>Chief Technology Officer</h6>
+								<div class="rotate">
+									<p class="group1">
+										<a href="#">
+											<i class="fa fa-twitter"></i>
+										</a>
+										<a href="#">
+											<i class="fa fa-facebook"></i>
+										</a>
+									</p>
+									<hr>
+									<hr>
+									<p class="group2">
+										<a href="#">
+											<i class="fa fa-instagram"></i>
+										</a>
+										<a href="#">
+											<i class="fa fa-dribbble"></i>
+										</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<h4>Laras Aprilianti S.</h4>
+						<p>Chief Technology Officer</p>
+					</div>
 				<div class="clearfix"> </div>
 			</div>
 		</div>
+	</div>
 	</div>
 <!-- //team -->
 
 <!-- Clients -->
 	<div class=" col-md-6 clients">
-			<h3>Testimonials</h3>
+			<h3>Testimoni</h3>
 			<section class="slider">
 				<div class="flexslider">
 					<ul class="slides">
 						<li>
 								<div class="client">
 									<img src="images/t1.jpg" alt="" />
-									<h5>Brian Fantana</h5>
+									<h5>Saras Larasati</h5>
 									<div class="clearfix"> </div>
 								</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
+								<p>Sempat bingung mencari kontraktor yang profesional,
+								sejak menemukan website ini, rumah impian saya sudah berdiri kokoh. Terimakasih ProyekKita.com .</p>
 
 						</li>
 						<li>
 								<div class="client">
 								<img src="images/t2.jpg" alt="" />
-									<h5>Brick Tamland</h5>
+									<h5>Budi Handoko</h5>
 									<div class="clearfix"> </div>
 								</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
+								<p>Rumah saya dengan cepatnya dibangun oleh kontraktor, respon dari admin juga cepat. Saya puas 
+								dengan pelayanan ProyekKita.com. Nanti saya bangun rumah kedua disini lagi hehe.</p>
 
 						</li>
 						<li>
 								<div class="client">
 								<img src="images/t3.jpg" alt="" />
-									<h5>Ron Burgundy</h5>
+									<h5>Roy Suryo</h5>
 									<div class="clearfix"> </div>
 								</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
+								<p>Pelayanan yang cepat dan tanggap, saya dapat mencari kontraktor yang sesuai dengan harga yang pas.
+								Desain rumah yang menarik sesuai keinginan. Bintang 5 gan.</p>
 
 						</li>
 						<li>
 								<div class="client">
 								<img src="images/t4.jpg" alt="" />
-									<h5>Arturo Mendez</h5>
+									<h5>Elissa Ajeng</h5>
 									<div class="clearfix"> </div>
 								</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
+								<p>Walaupun ProyekKita.com masih baru, tetapi pelayanannya bisa diadu dengan yang lainnya. Sangat 
+								membantu menyelesaikan proyek saya. Terimakasih atas pelayanan yang super baik.</p>
 
 						</li>
 					</ul>
@@ -492,21 +526,21 @@ Transporters
 	<div class="col-md-6 services-bottom">
 			<div class="col-md-6 agileits_w3layouts_about_counter_left">
 				<div class="countericon">
-					<i class="fa fa-truck" aria-hidden="true"></i>
+					<i class="fa fa-globe" aria-hidden="true"></i>
 				</div>
 				<div class="counterinfo">
 					<p class="counter">1126</p>
-					<h3>Transport vehicles</h3>
+					<h3>Pengunjung Hari Ini</h3>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 			<div class="col-md-6 agileits_w3layouts_about_counter_left">
 				<div class="countericon">
-					<i class="fa fa-fighter-jet" aria-hidden="true"></i>
+					<i class="fa fa-check-circle-o" aria-hidden="true"></i>
 				</div>
 				<div class="counterinfo">
-					<p class="counter">180</p>
-					<h3>International Service</h3>
+					<p class="counter">80</p>
+					<h3>Proyek Selesai</h3>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -516,8 +550,8 @@ Transporters
 					<i class="fa fa-calendar" aria-hidden="true"></i>
 				</div>
 				<div class="counterinfo">
-					<p class="counter">20</p>
-					<h3>Years Of Service</h3>
+					<p class="counter">1</p>
+					<h3>Tahun Pelayanan</h3>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -526,8 +560,8 @@ Transporters
 					<i class="fa fa-user" aria-hidden="true"></i>
 				</div>
 				<div class="counterinfo">
-					<p class="counter">800</p>
-					<h3>Happy clients</h3>
+					<p class="counter">75</p>
+					<h3>Klien Puas</h3>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -541,34 +575,34 @@ Transporters
 <section class="blog" id="blog">
 	<div class="container">
 		<div class="heading">
-			<h3>Latest News</h3>
+			<h3>Berita Hangat</h3>
 		</div>
 		<div class="blog-grids">
 		<div class="col-md-4 blog-grid">
 			<a href="#" data-toggle="modal" data-target="#myModal"><img src="images/bg4.jpg" alt="" /></a>
-			<h5>June 10,2017</h5>
-			<h4><a href="#" data-toggle="modal" data-target="#myModal">Road Way Transport</a></h4>
-			<p> Lorem ipsum dolor sit amet, consectetur adipi scingelit. Vestibulum orci justo, vehicula vel sapien et, feugiat sapien. Integer sit amet.</p>
+			<h5>Oktober 10,2017</h5>
+			<h4><a href="#" data-toggle="modal" data-target="#myModal">Pembangunan Rumah Susun di Jakarta</a></h4>
+			<p> Rumah susun di jakarta telah memasukin pembangunan tahap kedua dalam 6 bulan.</p>
 			<div class="readmore-w3">
-				<a class="readmore" href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+				<a class="readmore" href="#" data-toggle="modal" data-target="#myModal">Baca Selengkapnya</a>
 			</div>
 		</div>
 		<div class="col-md-4 blog-grid">
 			<a href="#" data-toggle="modal" data-target="#myModal"><img src="images/bg7.jpg" alt="" /></a>
-			<h5>June 17,2017</h5>
-			<h4><a href="#" data-toggle="modal" data-target="#myModal">Water Way Transport</a></h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipi scingelit. Vestibulum orci justo, vehicula vel sapien et, feugiat tristique.</p>
+			<h5>September 17,2017</h5>
+			<h4><a href="#" data-toggle="modal" data-target="#myModal">10 Desain Rumah Idaman Terunik</a></h4>
+			<p>Pilihan beberapa editor desain rumah yang unik dari beberapa desainer rumah yang terkenal.</p>
 			<div class="readmore-w3">
-				<a class="readmore" href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+				<a class="readmore" href="#" data-toggle="modal" data-target="#myModal">Baca Selengkapnya</a>
 			</div>
 		</div>
 		<div class="col-md-4 blog-grid">
 			<a href="#" data-toggle="modal" data-target="#myModal"><img src="images/bg8.jpg" alt="" /></a>
-			<h5>June 26,2017</h5>
-			<h4><a href="#" data-toggle="modal" data-target="#myModal">Rail Transport</a></h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipi scingelit. Vestibulum orci justo, vehicula vel sapien et, feugiat sapien. Integer sit amet.</p>
+			<h5>September 26,2017</h5>
+			<h4><a href="#" data-toggle="modal" data-target="#myModal">5 Kontraktor Lokal Terbaik</a></h4>
+			<p>Iniliah beberapa kontraktor terbaik di indonesia yang akan membangun impianmu menjadi nyata.</p>
 			<div class="readmore-w3">
-				<a class="readmore" href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+				<a class="readmore" href="#" data-toggle="modal" data-target="#myModal">Baca Selengkapnya</a>
 			</div>
 		</div>
 		<div class="clearfix"></div>
@@ -582,8 +616,8 @@ Transporters
 		<div class="agileits-w3layouts-footer">
 			<div class="container">
 				<div class="col-md-4 w3-agile-grid">
-					<h5>About Us</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipis cingelit. Aenean bibendum urna non nisi orn, condimentum iaculis ipsum blandit. Duis vulputate metus nec luctus.</p>
+					<h5>Tentang Kami</h5>
+					<p>Kemi menyediakan banyak kontraktor profesional nasional yang akan membangun rumah impian anda dan supplier dengan bahan bangunan yang murah tetapi berkualitas.</p>
 					<div class="footer-agileinfo-social">
 						<ul>
 							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -595,15 +629,15 @@ Transporters
 				</div>
 
 				<div class="col-md-4 w3-agile-grid">
-					<h5>Address</h5>
+					<h5>Alamat</h5>
 					<div class="w3-address">
 						<div class="w3-address-grid">
 							<div class="w3-address-left">
 								<i class="fa fa-phone" aria-hidden="true"></i>
 							</div>
 							<div class="w3-address-right">
-								<h6>Phone Number</h6>
-								<p>+6285704170077 Anggy</p>
+								<h6>Nomor Telepon</h6>
+								<p>Call Center - (021) 548 5555</p>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -612,8 +646,8 @@ Transporters
 								<i class="fa fa-envelope" aria-hidden="true"></i>
 							</div>
 							<div class="w3-address-right">
-								<h6>Email Address</h6>
-								<p>Email :<a href="mailto:example@email.com"> mail@example.com</a></p>
+								<h6>Alamat Email</h6>
+								<p>Email :<a href="mailto:example@email.com"> admin@proyekkita.com</a></p>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -622,17 +656,17 @@ Transporters
 								<i class="fa fa-map-marker" aria-hidden="true"></i>
 							</div>
 							<div class="w3-address-right">
-								<h6>Location</h6>
-								<p> SE10 8JQ, Greenwich Road, London.
-Telephone : +0(12) 444 262 399
-</p>
+								<h6>Lokasi</h6>
+								<p> Sumbersari, Jember, Indonesia.
+									
+									</p>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 w3-agile-grid">
-					<h5>Recent Posts</h5>
+				<!-- <div class="col-md-4 w3-agile-grid">
+					<h5>Post Terbaru</h5>
 					<div class="w3ls-post-grids">
 						<div class="w3ls-post-grid">
 							<div class="w3ls-post-img">
@@ -672,6 +706,7 @@ Telephone : +0(12) 444 262 399
 								<h6><a href="#" data-toggle="modal" data-target="#myModal">Donec vel sapien in erat</a></h6>
 								<p>June 26,2017</p>
 							</div>
+						-->
 							<div class="clearfix"> </div>
 						</div>
 					</div>
@@ -681,7 +716,7 @@ Telephone : +0(12) 444 262 399
 		</div>
 		<div class="copyright">
 			<div class="container">
-				<p>© 2017 Transporters. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+				<p>© 2017 Proyekkita.com. All rights reserved</a></p>
 			</div>
 		</div>
 	</footer>
